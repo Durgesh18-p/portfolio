@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Gluten&family=IBM+Plex+Sans:wght@300;500&family=Lato:wght@300&family=Lora&family=Montserrat&family=Noto+Sans:wght@400;600&family=Onest:wght@400;600&family=Open+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --black-color : #333333;
+    --white-color : #FFFFFF;
+    --grey-color : #FAFAFA;
+    --purple-color : #7843E9;
+    --background-grey : #99999933;
+
+}
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+.navbar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-nav-container {
+    gap: 0.5rem;
+}
+
+.my-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0.5rem 0 0 5rem;
+
+}
+
+.nav-name-link {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+ul {
+    gap: 1rem;
+    margin-right: 5rem;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: bolder;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+
+.my-info {
+    height: 100vh;
+    background: url(/images/back3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: 1.8px;
+}
+
+.about-me {
+    width: 700px;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.project-button {
+    padding: 1rem;
+    width: 200px;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.project-button:hover {
+    cursor: pointer;
+}
+
+.skill-section {
+    height: 100vh;
+    background-color: var(--grey-color);
+}
+
+.skill-section {
+    flex-direction: column;
+}
+
+.skills-heading {
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.skill-hr {
+    width: 50px;
+    height: 5px;
+    background-color: var(--purple-color);
+    border-radius: 4px;
+    margin: 2rem 0;
+}
+
+.about-skills {
+    margin: 2rem 0;
+    width: 600px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+}
+
+.my-skills {
+    display: grid;
+    grid-template-columns: repeat(3,130px);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skills {
+    background-color: var(--background-grey);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
