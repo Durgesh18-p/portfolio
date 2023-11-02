@@ -13,7 +13,7 @@
     --grey-color : #FAFAFA;
     --purple-color : #7843E9;
     --background-grey : #99999933;
-
+    --footer-black-color : #000000;
 }
 
 .navbar{
@@ -100,10 +100,13 @@ ul>li {
     font-size: 18px;
     letter-spacing: 1.5px;
     border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .project-button:hover {
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .skill-section {
@@ -162,6 +165,7 @@ ul>li {
 
 .project-container {
     flex-direction: column;
+    /* margin: 2rem; */
 }
 
 .project-section {
@@ -178,22 +182,32 @@ ul>li {
 .project-info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    gap: 3rem;
     text-align: center;
+    padding: 0.3rem;
 }
 
 .project-para {
     font-weight: 800;
     font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.project-heading {
+    margin-top: 2rem;
+}
+
+.project-name {
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
 
 .github-link {
     text-decoration: none;
     background-color: var(--purple-color);
     color: var(--white-color);
-    padding: 1.2rem;
+    padding: 1rem;
     font-weight: 900;
     font-size: 1.2rem;
 }
@@ -201,6 +215,39 @@ ul>li {
 .github-link:hover {
     cursor: pointer;
     border-radius: 10px;
+}
+
+footer{
+    height: 35vh;
+    background-color: var(--footer-black-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-footer {
+    width: 700px;
+    margin-top: 2rem;
+}
+
+.footer-heading {
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.footer-hr {
+    width: 700px;
+}
+
+.copyrights {
+    font-size: 13px;
+}
+
+.copyrights>a {
+    color: var(--white-color);
 }
 
 .flex-center {
