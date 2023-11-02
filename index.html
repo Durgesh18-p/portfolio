@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Durgesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="name-nav-container">
+    <nav class="navbar navbar-flex">
+        <div class="name-nav-container flex-center">
             <img src="/images/my_img.png" alt="my image" class="my-image">
-            <a href="index.html">Suryawanshi Durgesh</a>
+            <a href="index.html" class="nav-name-link">Suryawanshi Durgesh</a>
         </div>
         <div class="nav-menu">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+            <ul class="flex-center">
+                <li><a href="#" class="nav-links">HOME</a></li>
+                <li><a href="#" class="nav-links">ABOUT</a></li>
+                <li><a href="#" class="nav-links">PROJECTS</a></li>
+                <li><a href="#" class="nav-links">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="my-info">
-        <h1 class="heading">HEY I'M SURYAWANSHI DURGESH</h1>
-        <p class="about-me">A Frontend developer building websites using HTML , CSS & JavaScript that strengthen my programming skills. Learning react.js an applying it.</p>
+    <div class="my-info flex-center">
+        <h1 class="heading">HEY, I'M SURYAWANSHI DURGESH</h1>
+
+        <p class="about-me">A Frontend developer building websites using HTML , CSS & JavaScript that strengthen my programming skills. Learning react.js and applying it.</p>
         <button class="project-button" id="project-button">PROJECTS</button>
     </div>
 
-    <div class="skill-section">
+    <div class="skill-section flex-center">
+        <h1 class="skills-heading">MY SKILLS</h1>
+        <div class="skill-hr"></div>
+        <p class="about">Here you will get to know about my skill-set. I learned these skills from documentation and tutorials. I strengthen then them by practicing.</p>
         <div class="my-skills">
             <span class="skills">HTML</span>
             <span class="skills">CSS</span>
@@ -35,13 +40,46 @@
             <span class="skills">Git</span>
             <span class="skills">Github</span>
             <span class="skills">Python</span>
-            <span class="skills">SQL</span>
+            <span class="skills sql">SQL</span>
         </div>
     </div>
 
     <div class="projects">
-        <h1 class="project-heading">PROJECTS</h1>
-        <p class="about-projects">Here you will find some of my interesting projects with its Github link.</p>
+        <div class="project-container flex-center">
+            <h1 class="project-heading">PROJECTS</h1>
+            <div class="skill-hr"></div>
+            <p class="about">Here you will find some of my interesting projects with its Github link.</p>
+        </div>
+        
+        <div class="project-section">
+            <div class="project-image">
+                <img src="/images/myntra.png" alt="Myntra clone" class="pr-img">
+            </div>
+            <div class="project-info">
+                <p class="project-para">Created <b>Myntra Clone</b> using HTML , CSS & Vanilla JS. Added "Add to cart feature". To save the changes used browser's local storage.</p>
+                <a href="https://github.com/Durgesh18-p/myntra-clone" class="github-link">view on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <div class="project-image">
+                <img src="/images/adarshbalika.png" alt="adarsh" class="pr-img">
+            </div>
+            <div class="project-info">
+                <p class="project-para">Adarsh balika is a portfolio website for a web developer to showcase his/her skills and knowledge about programming.</p>
+                <a href="https://github.com/Durgesh18-p/Adarsh_Balika" class="github-link">view on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <div class="project-image">
+                <img src="/images/todolist.png" alt="to-do-list" class="pr-img">
+            </div>
+            <div class="project-info">
+                <p class="project-para">A useful project in day-to-day life built using HTML , CSS & vanilla JS. One can add as well as remove the task from project.</p>
+                <a href="https://github.com/Durgesh18-p/to-do-lists" class="github-link">view on GitHub</a>
+            </div>
+        </div>
     </div>
 
     <footer class="footer">
