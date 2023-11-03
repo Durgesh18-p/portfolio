@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Durgesh's Portfolio</title>
+    <link rel="shortcut icon" href="/images/javascript.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +19,7 @@
                 <li><a href="index.html" class="nav-links">HOME</a></li>
                 <li><a href="#my-skills" class="nav-links">SKILLS</a></li>
                 <li><a href="#my-projects" class="nav-links">PROJECTS</a></li>
-                <li><a href="#" class="nav-links">CONTACT ME</a></li>
+                <li><a href="#my-contact-info" class="nav-links">CONTACT ME</a></li>
             </ul>
         </div>
     </nav>
@@ -89,23 +90,35 @@
         </div>
     </div>
 
-    <div class="contact" id="contact">
-        <div class="whatsapp flex-center">
-            <i class="fa-brands fa-whatsapp"></i>
-            <p class="about">
-                Click on the button below to start a chat on WhatsApp.
-            </p>
-            <button class="github-link" id="contact-button">CONTACT</button>
-        </div>
 
-        <div class="linkedin flex-center">
-            <i class="fa-brands fa-linkedin"></i>
-            <p class="about">
-                Click on the following link to connect me on LinkeIn.
-            </p>
-            <a href="https://www.linkedin.com/in/durgesh-suryawanshi-056a58230/" class="github-link linkedin-link">CONNECT</a>
+    <div id="my-contact-info">
+        <div class="contact-me">
+            <h2 class="heading">CONTACT ME</h2>
+            <div class="skill-hr contact-hr"></div>
+            <p class="about contact-about"><b>You can contact me on WhatsApp and LinkedIn.</b></p>
+        </div>
+        <div class="contact" id="contact">
+            
+            
+            <div class="whatsapp flex-center">
+                <i class="fa-brands fa-whatsapp"></i>
+                <p class="about"><b>
+                    Click on the button below to start a chat on WhatsApp.</b>
+                </p>
+                <button class="github-link" id="contact-button">CONTACT</button>
+            </div>
+    
+            <div class="linkedin flex-center">
+                <i class="fa-brands fa-linkedin"></i>
+                <p class="about"><b>
+                    Click on the following link to connect me on LinkeIn.</b>
+                </p>
+                <!-- <a href="https://www.linkedin.com/in/durgesh-suryawanshi-056a58230/" class="github-link linkedin-link">CONNECT</a> -->
+                <button class="github-link linkedin-link">CONNECT</button>
+            </div>
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="my-footer">
@@ -116,5 +129,7 @@
         <div class="footer-social-links"></div>
         <p class="copyrights">© Copyright 2023. Made by <a href="index.html">Suryawanshi Durgesh</a></p>
     </footer>
+
+    <script src="/index.js"></script>
 </body>
 </html>

@@ -218,7 +218,7 @@ ul>li {
     padding: 1rem;
     font-weight: 900;
     font-size: 1.2rem;
-    width: 200px;
+    /* width: 200px; */
     letter-spacing: 1.5px;
 }
 
@@ -264,6 +264,27 @@ footer{
     height: 50vh;
     background-color: var(--grey-color);
     display: flex;
+}
+
+.contact-me {
+    height: 50vh;
+    background-color: var(--grey-color);
+    text-align: center;
+}
+
+.contact-me > .heading {
+    margin: auto;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-me > .contact-hr{
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.contact-me > .contact-about {
+    margin: auto;
 }
 
 .whatsapp,.linkedin {
